@@ -1,0 +1,41 @@
+.nav {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #f07f13;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__cart-box {
+        padding-top: .7rem;
+        span {
+            margin-right: 1rem;
+        }
+        i {
+            font-size: 2.5rem;
+            color: #FFF;
+        }
+
+    }
+}
+.nav2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    &__cart-box {
+        padding-top: .7rem;
+        span {
+            margin-right: 1rem;
+        }
+        i {
+            font-size: 2.5rem;
+            color: #FFF;
+        }
+
+    }
+}
